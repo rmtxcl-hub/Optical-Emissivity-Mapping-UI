@@ -167,6 +167,50 @@ Main files in this project:
 
 ## Installation
 
+1. Download this repository.
+
+   * Either download it as a ZIP from GitHub and extract it, or clone it with Git:
+
+2. Download the database file `data_f.sqlite` from the Google Drive link below:
+
+**https://drive.google.com/file/d/13pP8PzNkjb4EwtVwyAV_BmgWK-LTkl8E/view?usp=drive_link**
+
+3. Place `data_f.sqlite` in the same folder as the main Python files.
+
+Your folder should look like this:
+
+```text
+Optical-Emissivity-Mapping-UI/
+├─ UI.py
+├─ TMM.py
+├─ nkwrap.py
+├─ map_mod.py
+├─ contour.py
+├─ submask.py
+├─ simplepeak.py
+├─ material_keys_tagged.txt
+├─ data_f.sqlite
+├─ requirements.txt
+└─ README.md
+```
+
+### Launch
+
+Run the program with:
+
+```bash
+python UI.py
+```
+
+This launches the GUI.
+
+### Notes
+
+* `UI.py` is the main entry point of the application.
+* `data_f.sqlite` is required for the material database and optical-constants lookup.
+* The database file is not included directly in this repository because of file size.
+* If `data_f.sqlite` is missing or placed in the wrong folder, the program may not work correctly.
+
 ### Requirements
 
 - Python 3.10+
