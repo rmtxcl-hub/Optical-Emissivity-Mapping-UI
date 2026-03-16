@@ -180,7 +180,7 @@ Main files in this project:
 Your folder should look like this:
 
 ```text
-Optical-Emissivity-Mapping-UI/
+Multilayer-Mapping-UI/
 ├─ UI.py
 ├─ TMM.py
 ├─ nkwrap.py
